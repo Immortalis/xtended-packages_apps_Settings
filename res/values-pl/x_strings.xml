@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020-2021 The Project-Xtended
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Dev Info -->
+    <string name="xtended_about_info">O Xtended</string>
+    <string name="xtended_about_info_summary_title">Poznaj nas!</string>
+    <string name="xtended_info_summary">Projekt Xtended to własny ROM bazujący na hybrydowym połączeniu AOSP i CAF. Próbujemy stworzyć go prostego w kontekście interfejsu, jednak doładowanego wieloma funkcjami Androida, posiadającego wszystkie potrzebne i przydatne opcje personalizacji. Tak, mamy też różne bajery Xtended.</string>
+    <string name="xtended_about_team">Team Xtended</string>
+    <string name="xtended_about_team_summary">Know About The Team Xtended</string>
+    <string name="devs_header">Core Dev Team</string>
+    <string name="testing_header">Helping Hands and Testers</string>
+    <string name="thanks_header">Special Thanks to These Devs</string>
+    <string name="xtended_web">Official Website</string>
+    <string name="xtended_web_summary">Visit for more details</string>
+    <string name="xtended_telegram">Official Telegram Support Group</string>
+    <string name="xtended_telegram_summary">Join Here for Instant Support</string>
+    <string name="credits_header">Thanks Giving</string>
+    <string name="credits_summary">Huge Thanks To These Teams</string>
+    <string name="devices">Devices</string>
+    <string name="devices_title">Official Devices</string>
+    <string name="devices_summary">Coming Soon...</string>
+    <string name="dev_1">MadhuSudhan Painoori aka Mady51</string>
+    <string name="dev1_description">Kernel Developer, The OS Boot Manager</string>
+    <string name="dev_3">Santosh Jha aka SuperDroidBond</string>
+    <string name="dev3_description">Base Developer, The U-I Changer</string>
+    <string name="dev_2">Mukesh Singh aka mukesh22584</string>
+    <string name="dev2_description">Customizations Developer, The Cherry-Picker</string>
+    <string name="dev_4">Dhanush Krishanan aka Ded_Boi</string>
+    <string name="dev4_description">Feature Manager, The Code Puller</string>
+    <string name="dev_5">Honza aka svandasek</string>
+    <string name="dev5_description">Graphics Organiser, The Image Factory</string>
+    <string name="dev_6">Danny aka mcdachpappe</string>
+    <string name="dev6_description">Code Dev, The Code Fixer</string>
+    <string name="dev_7">Jayant aka Jay_B</string>
+    <string name="dev7_description">Graphics Organiser, BootAnimator</string>
+    <string name="devices_header">Officially Supported Devices</string>
+    <string name="device_1">OnePlus 5T | dumpling</string>
+    <string name="device1_description">Mukesh Singh aka mukesh22584</string>
+    <string name="device_2">OnePlus 5 | cheeseburger</string>
+    <string name="device2_description">Mukesh Singh aka mukesh22584</string>
+    <string name="device_3">OnePlus 3 Unified | oneplus3, oneplus3t</string>
+    <string name="device3_description">Santosh Jha aka SuperDroidBond</string>
+    <string name="device_4">Xiaomi Redmi Note 4 | mido</string>
+    <string name="device4_description">Sagar aka sagar.rokade.982</string>
+    <string name="device_5">Xiaomi Redmi 4A | rolex</string>
+    <string name="device5_description">Ankan Ghosh aka ankan005</string>
+    <string name="device_6">Xiaomi Redmi 3S | land</string>
+    <string name="device6_description">Saksham Singh aka Saksham Singh</string>
+    <string name="device_7">Xiaomi Redmi Note 5-5 Plus | vince</string>
+    <string name="device7_description">Raj Kale aka RajKale99</string>
+    <string name="device_8">Xiaomi Mi A1 | tissot</string>
+    <string name="device8_description">Anurag Rai aka anurag rai</string>
+    <string name="device_9">Xiaomi Redmi 4X | santoni</string>
+    <string name="device9_description">Wajid Khan aka wajidkh08</string>
+    <string name="device_10">Moto G5s Plus | sanders</string>
+    <string name="device10_description"> Sai Krishna aka Sai404142</string>
+    <string name="device_11">Xiaomi Mi Max 2 | oxygen</string>
+    <string name="device11_description">Jayant | Jay_B</string>
+    <string name="device_12">Xiaomi Redmi Note 5 - 5 Plus | vince</string>
+    <string name="device12_description">Oveno Senpai aka TSG756</string>
+    <string name="device_13">Xiaomi Redmi Note 3 | kenzo</string>
+    <string name="device13_description">Amitava Mitra aka Amitava_123</string>
+    <string name="device_14">Lenovo P2 | kuntao</string>
+    <string name="device14_description">Priyesh aka PriyeshP</string>
+    <string name="device_15">Xiaomi Redmi Note 5 Pro | whyred</string>
+    <string name="device15_description">Taran Hora aka Taranhora</string>
+    <string name="device_16">Asus Zenfone Laser 2 | Z00L</string>
+    <string name="device16_description">Mrinal aka mg712702</string>
+    <string name="credits_to_these_teams">Credits Section</string>
+    <string name="hail_to_teams"> Huge Thanks to These Teams</string>
+    <string name="team_1">LineageOS | CyanogenMOD</string>
+    <string name="team_2">Team GZOSP</string>
+    <string name="team_3">Team ColtOS</string>
+    <string name="team_4">Team OmniROM</string>
+    <string name="team_5">Team DirtyUnicorns</string>
+    <string name="team_6">Team Nitrogen OS</string>
+    <string name="team_7">Team AICP</string>
+    <string name="team_8">Team Cr Droid</string>
+    <string name="team_9">Team ScrewdAOSP</string>
+    <string name="team_10">Team CypherOS</string>
+    <string name="team_11">Team LiquidRemix</string>
+    <string name="team_12">Team BenzoROM</string>
+    <string name="team_13">Team Bootleggers Rom</string>
+    <string name="team_14">Team AOSP Extended</string>
+    <string name="team_15">Team ResurrectionRemix</string>
+    <string name="team_16">Team Havoc OS</string>
+    <string name="team_17">Team Substratum</string>
+    <string name="spt_1">ZeNiXxX</string>
+    <string name="spt_2">SKULSHADY</string>
+    <string name="spt_3">HolyAngel</string>
+    <string name="spt_4">NoSpamDan</string>
+    <string name="spt_5">Rituj Beniwal</string>
+    <string name="hht_1">Babloo aka Babloo289</string>
+    <string name="hht_2">Dhairya Chandarana aka Dhairya</string>
+    <string name="hht_3">Priyankar Sharma aka ps_minky16</string>
+    <string name="hht_4">All Others Who Tested and Shared Feedback in Testing Group</string>
+    <string name="hht_5">Parikshit Singh aka rishi2603</string>
+    <string name="hht_6">DrUnknownEMC</string>
+    <string name="hht_7">Sushobith aka sushobith</string>
+    <string name="hht_8">gFknQ</string>
+    <string name="hht_9">Sunil Harali</string>
+    <string name="translators_header">Translators Credits</string>
+    <string name="translator_1">novas78</string>
+    <string name="language_1">Czech</string>
+    <string name="translator_2">Z-Pepe</string>
+    <string name="language_2">Italian</string>
+    <string name="translator_3">vellosid</string>
+    <string name="language_3">Romanian</string>
+    <string name="translator_4">alexisya</string>
+    <string name="language_4">Russian</string>
+    <string name="translator_5">Evan2408</string>
+    <string name="language_5">Chinese Simplified</string>
+    <string name="translator_6">vo.stro</string>
+    <string name="language_6">Indonesian</string>
+
+    <!-- Backup Transport selection settings menu and activity title --> 
+    <string name="backup_transport_setting_label">Zmień dostawcę kopii zapasowej</string>
+    <string name="backup_transport_title">Wybierz dostawcę kopii zapasowej</string>
+
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Zapisane słuchawki</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Znajdź czytnik linii papilarnych po <xliff:g id="sensor_location">%1$s</xliff:g> swojego tabletu.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Znajdź czytnik linii papilarnych po <xliff:g id="sensor_location">%1$s</xliff:g> swojego urządzenia.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Znajdź czytnik linii papilarnych po <xliff:g id="sensor_location">%1$s</xliff:g> swojego telefonu.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">tylnej</string>
+    <string name="security_settings_fingerprint_sensor_location_front">przedniej</string>
+    <string name="security_settings_fingerprint_sensor_location_left">lewej stronie</string>
+    <string name="security_settings_fingerprint_sensor_location_right">prawej stronie</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Wyłączony</string>
+    <string name="selinux_status_permissive">Pobłażliwy</string>
+    <string name="selinux_status_enforcing">Wymuszony</string>
+
+    <!-- Xtensions -->
+    <string name="x_settings_title">Rozszerzenia X-Tensions</string>
+    <string name="x_settings_summary">Nasze centrum personalizacji</string>
+
+    <!-- ROM version -->
+    <string name="about_device_name">Urządzenie</string>
+    <string name="build_date">Data kompilacji</string>
+    <string name="build_maintainer" translatable="false">Maintainer</string>
+    <string name="rom_version">Wersja Xtended</string>
+    <string name="rom_version_default">Nieznana</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platforma</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Całkowity RAM</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Dotknij, by zobaczyć informacje</string>
+
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Temperatura baterii</string>
+
+    <!-- Battery health -->
+    <string name="battery_health_title">Zdrowie baterii</string>
+    <string name="battery_health_summary">Śledź zdrowie baterii swojego urządzenia</string>
+    <string name="current_battery_capacity">Obecna pojemność baterii</string>
+    <string name="current_battery_capacity_summary">Obecna pojemność baterii zmierzona przez jądro</string>
+    <string name="designed_battery_capacity">Projektowa pojemność baterii</string>
+    <string name="designed_battery_capacity_summary">Projektowa pojemność baterii ustalona przez producenta</string>
+    <string name="battery_charge_cycles">Cykle ładowania</string>
+
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">notifications, notification log</string>
+
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimalne odświeżanie ekranu</string>
+    <string name="max_refresh_rate_title">Maksymalne odświeżanie ekranu</string>
+
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Inteligentne ładowanie</string>
+    <string name="smart_charging_summary">Ustaw maksymalny poziom naładowania</string>
+    <string name="smart_charging_switch_title">Używaj inteligentnego ładowania</string>
+    <string name="smart_charging_switch_summary">Włącz-wyłącz inteligentne ładowanie</string>
+    <string name="smart_charging_level_title">Próg zakończenia</string>
+    <string name="smart_charging_resume_level_title">Próg rozpoczęcia</string>
+    <string name="smart_charging_reset_stats_title">Wyczyść statystyki baterii</string>
+    <string name="smart_charging_reset_stats_summary">Wyczyść statystyki baterii po osiągnięciu progu zdefiniowanego przez użytkownika</string>
+    <string name="smart_charging_footer">Inteligentne ładowanie pozwala na ustawienie maksymalnego poziomu naładowania w celu wydłużenia żywotności baterii</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Wyczyść statystyki</string>
+    <string name="battery_stats_message">Stystyki użycia baterii zostaną wyczyszczone</string>
+
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Debugowanie z superużytkownikiem</string>
+    <string name="adb_enable_summary_root">Zezwól na debugowanie Androida z uprawnieniami superużytkownika</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Połącz głośność dzwonka i powiadomień</string>
+
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Mieszaj układ</string>
+    <string name="unlock_scramble_pin_layout_summary">Mieszaj układ PIN podczas odblokowywania urządzenia</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Szybkie odblokowanie</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, gdy zostanie wprowadzony prawidłowy PIN lub hasło</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Obrót</string>
+    <string name="display_rotation_summary">Wybierz kąty obrotu</string>
+    <string name="display_rotation_disabled">Wyłączony</string>
+    <string name="display_rotation_unit">stopni</string>
+    <string name="display_rotation_category_title">Tryby obrotu</string>
+    <string name="display_rotation_0_title">0 stopni</string>
+    <string name="display_rotation_90_title">90 stopni</string>
+    <string name="display_rotation_180_title">180 stopni</string>
+    <string name="display_rotation_270_title">270 stopni</string>
+
+    <!-- Themes customisation -->
+    <string name="theme_customization_systemui_title">Kolor motywu</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">Kolor diody</string>
+    <string name="custom_light_on_time_title">Czas włączenia diody (ms)</string>
+    <string name="custom_light_off_time_title">Czas wyłączenia diody (ms)"</string>
+    <string name="value_equals_default">domyślny</string>
+
+    <!-- Lock screen pattern size -->
+    <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
+    <string name="lock_pattern_size_4" translatable="false">4 \u00d7 4</string> 
+    <string name="lock_pattern_size_5" translatable="false">5 \u00d7 5</string>
+    <string name="lock_pattern_size_6" translatable="false">6 \u00d7 6</string>
+    <string name="lock_settings_picker_pattern_size_message">Wybierz rozmiar wzoru</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Pokaż błąd wzoru</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Pokaż kropki wzoru</string>
+
+    <!-- Density category -->
+    <string name="density_category">Opcje zagęszczenia</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Długość paska gestów</string> 
+    <string name="hidden_label">Ukryty</string>
+    <string name="false_hidden_label">Fałszywie ukryty</string>
+    <string name="long_label">Długi</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Przełącz między trybami</string>
+    <string name="prevent_ringing_option_cycle_summary">Włączone (przełączanie między trybami)</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Rosnąca głośność dzwonka</string>
+    <string name="increasing_ring_min_volume_title">Głośność początkowa</string>
+    <string name="increasing_ring_ramp_up_time_title">Czas narastania</string>
+
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptacyjne odtwarzanie</string>
+    <string name="adaptive_playback_disabled_summary">Wyłącz</string>
+    <string name="adaptive_playback_timeout_title">Użyj limitu czasu</string>
+    <string name="adaptive_playback_timeout_none">Brak limitu czasu</string>
+    <string name="adaptive_playback_timeout_none_summary">Włączone (brak limitu czasu)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekund</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Włączone (30 sekund)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuta</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Włączone (1 minuta)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuty</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Włączone (2 minuty)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minut</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Włączone (5 minut)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minut</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Włączone (10 minut)</string>
+
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Oszczędzanie energii</string>
+    <string name="smart_features_category_title">Inteligentne funkcje</string>
+    <string name="battery_health_category_title">Zdrowie baterii</string>
+    <string name="battery_usage_category_title">Użycie baterii</string>
+
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Inteligentne odcięcie</string>
+    <string name="smart_cutoff_summary">Ustaw maksymalną temperaturę</string>
+    <string name="smart_cutoff_switch_title">Używaj inteligentnego odcięcia</string>
+    <string name="smart_cutoff_level_title">Próg zakończenia</string>
+    <string name="smart_cutoff_resume_level_title">Próg rozpoczęcia</string>
+
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">SBC HD audio</string>
+    <string name="sbc_hd_priority_summary">Czy używać domyślnie trybu dwukanałowego dla kodeka SBC</string>
+
+    <!-- Power Button Fingerprint -->
+    <string name="fingerprint_power_button_press_title">Naciśnij, by odblokować</string>
+    <string name="fingerprint_power_button_press_off_summary">Naciśnij przycisk zasilania, by odblokować odciskiem przy wyłączonym ekranie</string>
+    <string name="fingerprint_power_button_press_on_summary">Naciśnij przycisk zasilania, by odblokować odciskiem palca, gdy ekran jest wyłączony</string>
+
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Usuń istniejący skan twarzy i utwórz nowy</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ponów skan twarzy</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Ekran blokady, odcisk palca, odblokowywanie twarzą</string>
+    <string name="face_redo_confirm_btn">Ponów</string>
+    <string name="face_redo_warning_msg">Czy chcesz usunąć istniejący skan twarzy i utworzyć nowy?</string>
+
+    <!-- App Lock -->
+    <string name="applock_title">Sejf aplikacji</string>
+    <string name="applock_locked">Zablokowana</string>
+    <string name="applock_unlocked">Odblokowana</string>
+    <string name="applock_locked_apps">Zablokowane aplikacje</string>
+    <string name="applock_unlocked_apps">Zablokowane aplikacje</string>
+    <string name="applock_lock_after_title">Zablokuj aplikacje po</string>
+    <string name="applock_lock_after_instantly">Natychmiast</string>
+    <string name="applock_lock_after_15_seconds">15 sekund</string>
+    <string name="applock_lock_after_screen_off">Wyłączenie ekranu</string> 
+    <string name="applock_lock_after_summary">Aplikacja zostanie zablokowana po wybranym czasie</string>
+    <string name="applock_lock_after_instantly_summary">Aplikacja zostanie zablokowana od razu po jej zamknięciu</string>
+    <string name="applock_lock_after_15_seconds_summary">Aplikacja zostanie zablokowana po 15 sekundach po jej zamknięciu</string>
+    <string name="applock_lock_after_screen_off_summary">Aplikacja zostanie zablokowana po wyłączeniu ekranu</string>
+    <string name="applock_notification_info">Możesz pokazać i ukryć treść powiadomień aplikacji dla każdej z nich, klikając ikonę aplikacji przy każdej zablokowanej aplikacji</string>
+    <string name="applock_show_notif">Pokazywanie treści powiadomień</string>
+    <string name="applock_hide_notif">Ukrywanie treści powiadomień</string>
+    <string name="applock_setup">Skonfiguruj sejf aplikacji</string>
+    <string name="applock_overlay_summary">Ta funkcja jest niedostępna, ponieważ aplikacja jest zablokowana</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 aplikacja zablokowana</item>
+        <item quantity="other">%d aplikacji zablokowanych</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+
+    <!-- Running Services -->
+    <string name="background_processes_settings_title">Procesy w tle</string>
+
+    <!-- OmniJaws -->
+    <string name="weather_title">Pogoda</string>
+
+    <!-- FontEngine -->
+    <string name="font_picker_title">Czcionka</string>
+    <string name="disable_fonts_installed_title">Wybór czcionki jest niedostępny, by uniknąć konfliktów z Substratum. Odinstaluj go, jeśli chcesz używać wyboru czcionki.</string>
+    <string name="font_picker_progress">Stosowanie nowej czcionki\u2026</string>
+
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Sprzężenie zwrotne</string>
+    <string name="back_gesture_haptic_summary">Włącz sprężenie zwrotne przy geście wstecz</string>
+
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Wyłączony</string>
+    <string name="greatest_tick_label">Pół ekranu</string>
+    <string name="gesture_back_deadzone_label">Martwa strefa</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUżyj pierwszego i drugiego suwaka, by ustawić czułość gestu wstecz, ostatnim suwakiem ustaw martwą strefę, gdzie gest nie będzie mógł zostać użyty, by uniknąć konfliktu z gestami w aplikacjach.</string>
+
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Pełny</string>
+    <string name="back_height_high_label">Spód</string>
+    <string name="back_options_dialog_title">Opcje</string>
+    <string name="back_height_message">Obszar ekranu używany jako dotykalny dla gestu wstecz</string>
+
+    <!-- Custom actions -->
+    <string name="action_nothing">Brak akcji</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Ostatnie zadania</string>
+    <string name="action_search">Asystent</string>
+    <string name="action_voice_search">Wyszukiwanie głosowe</string>
+    <string name="action_launch_camera">Aparat</string>
+    <string name="action_last_app">Ostatnia aplikacja</string>
+    <string name="action_splitscreen">Podzielony ekran</string>
+    <string name="action_flashlight">Latarka</string>
+    <string name="action_clear_notifications">Wyczyść powiadomienia</string>
+    <string name="action_volume_panel">Panel głośności</string>
+    <string name="action_screen_off">Wyłącz ekran</string>
+    <string name="action_notifications">Powiadomienia</string>
+    <string name="action_power_menu">Menu zasilania</string>
+    <string name="action_screenshot">Zrzut ekranu</string>
+    <string name="action_qs_panel">Panel przełączników</string>
+    <string name="action_app_action">Aplikacja</string>
+    <string name="action_ringer_modes">Tryby dzwonka</string>
+    <string name="kill_app">Zabij pierwszoplanową aplikację</string>
+    <string name="recent_app_toggle">Zmień ostatnią aplikację</string>
+    <string name="action_partial_screenshot">Częściowy zrzut ekranu</string>
+
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Zaawansowane opcje gestów</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizuj gesty i ustaw własne akcje</string>
+    <string name="navbar_gesture_tweaks_cat_title">Zaawansowane</string>
+    <string name="swipe_app_select_summary">Wybierz aplikację do uruchomienia z gestem ściśnięcia</string>
+    <string name="long_back_swipe_timeout_title">Czas akcji długiego przeciągnięcia</string>
+    <string name="left_swipe_actions_title">Akcja długiego przeciągnięcia w lewo</string>
+    <string name="left_swipe_app_action_title">Wybierz aplikację do uruchomienia z gestem przeciągnięcia w lewo</string>
+    <string name="right_swipe_actions_title">Akcja długiego przeciągnięcia w prawo</string>
+    <string name="right_swipe_app_action_title">Wybierz aplikację do uruchomienia z gestem przeciągnięcia w prawo</string>
+    <string name="left_vertical_swipe_actions_title">Akcja długiego przeciągnięcia w lewo w kształt litery L</string>
+    <string name="left_vertical_swipe_app_action_title">Wybierz aplikację do uruchomienia z gestem przeciągnięcia w lewo w kształt litery L</string>
+    <string name="right_vertical_swipe_actions_title">Akcja długiego przeciągnięcia w prawo w kształt litery L</string>
+    <string name="right_vertical_swipe_app_action_title">Wybierz aplikację do uruchomienia z gestem przeciągnięcia w prawo w kształt litery L</string>
+    <string name="gesture_nav_tweaks_footer_info">By wybrać aktywność aplikacji dla akcji, przytrzymaj na dowolnej aplikacji na liście aplikacji. Jeśli widoczny jest program startowy, wykonaj gest przeciągnięcia przy samej krawędzi ekranu, by wykonać akcję.</string>
+    <string name="back_swipe_extended_title">Akcja przedłużonego przeciągnięcia</string>
+    <string name="back_swipe_extended_summary">Uruchom akcję po dłuższym przeciągnięciu (ponad połowa rozmiaru wyświetlacza), lub gestu L (dłuższego w pionie)</string>
+
+    <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Wygaszanie ekranu blokady</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Zezwól na dostęp do sieci</string>
+    <string name="data_usage_app_restrict_all_summary">Zezwól na użycie sieci</string>
+    <string name="data_usage_app_restrict_mobile">Sieć komórkowa</string>
+    <string name="data_usage_app_restrict_mobile_summary">Zezwól na użycie sieci komórkowej</string>
+    <string name="data_usage_app_restrict_vpn">Połączenie VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Zezwól na użycie połączeń VPN</string>
+    <string name="data_usage_app_restrict_wifi">Połączenie Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Zezwól na użycie połączeń Wi\u2011Fi</string>
+
+    <!-- Legacy WFD settings -->
+    <string name="legacy_wfd_video_mode_title">Tryb obrazu</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string> 
+    <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_red">Siła czerwonego</string>
+    <string name="color_mode_balance_green">Siła zielonego</string>
+    <string name="color_mode_balance_blue">Siła niebieskiego</string>
+    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Zapobiegnij przypadkowym wybudzeniom</string>
+    <string name="proximity_wake_summary">Sprawdź czujnik zbliżeniowy przed wybudzeniem ekranu</string>
+
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimalny czas odstępu między dźwiękami powiadomień</string>
+    <string name="app_notification_sound_timeout_summary_template">Zezwól na odtwarzanie dźwięków i wibracji nie częściej niż co <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Brak restrykcji</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekund</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekund</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuta</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minut</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
+
+    <!-- Phone Specs -->
+    <string name="specs_title">Specyfikacja urządzenia</string>
+
+    <!-- The Team -->
+    <string name="dialog_team_title">Drużyna</string>
+    <string name="developer_title">Deweloper</string>
+    <string name="maintainer_title">Opiekun</string>
+    <string name="designer_title">Projektant</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Mniej niż jedna minuta</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s dziś</string>
+
+    <!-- Battery saver -->
+    <string name="battery_saver_is_enabled">Oszczędzanie energii jest włączone</string>
+
+    <!-- Search bar style -->
+    <string name="search_bar_style_title">Używaj paska wyszukiwania z Androida 12</string>
+    <string name="search_bar_style_summary">Włącz, by używać paska wyszukiwania w stylu Androida 12 w aplikacji Ustawień. Aplikacja będzie wymagała ponownego uruchomienia po włączeniu</string>
+
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">Jednorazowa jasność automatyczna</string>
+    <string name="auto_brightness_one_shot_summary">Dostosowanie jasności automatycznej będzie miało miejsce tylko raz, gdy ekran jest włączony</string>
+
+    <!-- SoftAP Client Manager -->
+    <string name="wifi_tether_client_list_title">Lista klientów</string>
+    <string name="wifi_tether_client_list_summary">Zarządzaj klientami podłączonymi do hotspota tego urządzenia</string>
+
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Automatyczne wyłączenie Wi-Fi</string>
+
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi wyłączy się automatycznie po <xliff:g id="timeout_description">%1$s</xliff:g>, gdy nie jest połączone z żadną siecią</string>
+    <string name="wifi_timeout_summary2">Wyłączone</string>
+    <string name="wifi_timeout_summary_never">Nigdy</string>
+    <string name="wifi_timeout_summary_15secs">15 sekund</string>
+    <string name="wifi_timeout_summary_30secs">30 sekund</string>
+    <string name="wifi_timeout_summary_1min">1 minuta</string>
+    <string name="wifi_timeout_summary_2mins">2 minuty</string>
+    <string name="wifi_timeout_summary_5mins">5 minut</string>
+    <string name="wifi_timeout_summary_10mins">10 minut</string>
+    <string name="wifi_timeout_summary_30mins">30 minut</string>
+    <string name="wifi_timeout_summary_1hour">1 godzina</string>
+    <string name="wifi_timeout_summary_2hours">2 godziny</string>
+    <string name="wifi_timeout_summary_4hours">4 godziny</string>
+    <string name="wifi_timeout_summary_8hours">8 godzin</string>
+
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Automatyczne wyłączenie Bluetooth</string>
+
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth wyłączy się automatycznie po <xliff:g id="timeout_description">%1$s</xliff:g>, gdy nie ma podłączonych urządzeń</string>
+    <string name="bluetooth_timeout_summary2">Nie wyłączaj automatycznie Bluetooth</string>
+    <string name="bluetooth_timeout_summary_never">Nigdy</string>
+    <string name="bluetooth_timeout_summary_15secs">15 sekund</string>
+    <string name="bluetooth_timeout_summary_30secs">30 sekund</string>
+    <string name="bluetooth_timeout_summary_1min">1 minuta</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minuty</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minut</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minut</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minut</string>
+    <string name="bluetooth_timeout_summary_1hour">1 godzina</string>
+    <string name="bluetooth_timeout_summary_2hours">2 godziny</string>
+    <string name="bluetooth_timeout_summary_4hours">4 godziny</string>
+    <string name="bluetooth_timeout_summary_8hours">8 godzin</string>
+
+    <!-- Cloudflare DNS -->
+    <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
+
+    <!-- Adguard DNS -->
+    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+
+    <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">Pokaż centrum uprawnień</string>
+    <string name="show_permissions_hub_summary">Pokaż wskaźniki prywatności w SP</string>
+
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Włącz ostrzeżenie o poziomie naładowania baterii</string>
+    <string name="notification_battery_charge_level_title">Ostrzeżenie o poziomie naładowania baterii</string>
+    <string name="notification_battery_charge_level_summary">Odtwórz dźwięk, gdy bateria naładuje się do określonego poziomu</string>
+    <string name="notification_battery_charge_level_seek_bar">Poziom baterii</string>
+    <string name="notification_battery_charge_level_ringtone">RingtoneDzwonek</string>
+    <string name="notification_battery_charge_level_silent">Cisza</string>
+
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Zezwól klientom na używanie VPNów</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Zezwól klientom hotspota na używanie połączeń VPN z tego urządzenia dla połączeń internetowych</string>
+
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">In-Call Haptics</string>
+    <string name="incall_feeedback_summary">Vibrate to indicate call status</string>
+
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Wibracje</string>
+    <string name="summary_vibration_preferences">Zmień intensywność, wzory i inne</string>
+    <string name="keywords_vibration_preferences">vibration pattern, vibration intensity, incall, haptics, tap, vibration strength</string>
+    <string name="ringtone_vibration_pattern">Wzór wibracji dzwonka</string>
+    <string name="vibration_intensity_ringer">Intensywność wibracji dzwonka</string>
+    <string name="vibration_intensity_notification">Intensywność wibracji powiadomień</string>
+    <string name="vibration_intensity_disabled">Wyłączone</string>
+    <string name="vibration_intensity_light">Lekkie</string>
+    <string name="vibration_intensity_medium">Średnie</string>
+    <string name="vibration_intensity_strong">Mocne</string>
+    <string name="vibration_intensity_custom">Custom</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Własny</string>
+    <string name="custom_vibration_pattern_title">Ustaw własny wzór wibracji</string>
+    <string name="haptic_feedback_intensity">Intensywność sprzężenia zwrotnego</string>
+
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Przyciemnianie DC Dimming</string>
+    <string name="dc_dimming_info">Zmniejsza zmęczenie oczu w warunkach słabego oświetlenia, ale może spowodować obniżoną jakość obrazu i reprodukcję kolorów</string>
+    <string name="dc_dimming_auto_mode_title">Harmonogram</string>
+    <string name="dc_dimming_mode_brightness">Włącz, gdy jasność jest poniżej progu</string>
+    <string name="dc_dimming_mode_full">Zależny od czasu i jasności</string>
+    <string name="dc_dimming_brightness_title">Próg jasności</string>
+    <string name="dc_dimming_brightness_disabled">Wyłączony</string>
+    <string name="dc_dimming_restore_auto_mode">Przywróć tryb automatyczny</string>
+    <string name="dc_dimming_brightness_info">Aktywuj przyciemnianie DC tylko gdy jasność jest poniżej określonego poziomu</string>
+    <string name="dc_dimming_off_auto_mode_auto">Włączy się automatycznie</string>
+    <string name="dc_dimming_on_auto_mode_auto">Wyłączy się automatycznie</string>
+    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
+
+    <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Alerty dostępu do schowka</string>
+    <string name="clipboard_toast_info_show_important">Pokaż tylko istotne alerty</string>
+    <string name="clipboard_toast_info_show_all">Pokaż wszystkie alerty</string>
+
+</resources>
